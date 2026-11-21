@@ -4,5 +4,6 @@ const MATCHS = [
     { dom: "Compilateurs", ext: "Debuggers", sd: 1, se: 0 },
     { dom: "Routeurs", ext: "Pare-feu", sd: 0, se: 0 },
     { dom: "Pare-feu", ext: "Compilateurs", sd: 1, se: 3 },
-    { dom: "Debuggers", ext: "Routeurs", sd: 2, se: 1 }
+    { dom: "Debuggers", ext: "Routeurs", sd: 2, se: 1 },
+    { dom: "feu", ext: "Routeurs", sd: 0, se: 2 }
 ];
